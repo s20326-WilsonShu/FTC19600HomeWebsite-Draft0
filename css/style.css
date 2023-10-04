@@ -1,0 +1,310 @@
+/* This is a comment in an external style sheet.  You can copy and paste and reference anthing that you notice */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* This is a comment Where I learned to change the font for the entire body of the HTML page. */
+body{
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 20px; 
+    align-items: center;
+    position: fixed;
+    background-color: rgb(0, 111, 19);
+    z-index: 999;
+    top: 0;
+    height: 76px;
+    color: rgb(250, 235, 121);
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+header li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight:bold;
+    position: relative;
+    
+}
+
+header li a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+header li a:hover::before {
+    transform: scaleX(1);
+}
+
+#people3 {
+    min-height: 14vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#people {
+    min-height: 1vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#people2 {
+    min-height: 1vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#people4 {
+    min-height: 4vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section ul, ol {
+    list-style-position: inside;
+    padding: 5px 30px;
+  }
+
+section{
+    width: 100%;
+    float: left;
+    min-height: 1vh;
+    position: relative;
+    padding: 25px;
+    font-size: 25px;
+}
+
+#about{
+    background-image: url('images/LogoSqr.png');
+    background-color: rgb(197, 246, 197);
+    justify-content: center;
+    align-items: center;
+    font-size:135px;
+    min-height: 1vh;
+   
+}
+
+#blank{
+    background-color: rgb(101, 215, 81);
+    min-height: 9vh;
+}
+
+#blank2{
+    background-color: rgb(255, 255, 255);
+    min-height: 9vh;
+}
+
+#blank3{
+    background-color: rgb(194, 246, 185);
+    min-height: 9vh;
+}
+
+#blank32{
+    background-color: rgb(255, 255, 255);
+    min-height: 9vh;
+}
+
+#blank4{
+    background-color: rgb(255, 255, 255);
+    min-height: 9vh;
+}
+
+#blank5{
+    background-color: rgb(194, 246, 185);
+    min-height: 9vh;
+}
+
+#blank6{
+    background-color: rgb(255, 255, 255);
+    min-height: 9vh;
+}
+
+#blank7{
+    background-color: rgb(194, 246, 185);
+    min-height: 9vh;
+}
+
+#safety{
+    background-color: rgb(101, 215, 81);
+}
+#safetyteam{
+    background-color: rgb(255, 255, 255);
+}
+#safetyteam2{
+    background-color: rgb(194, 246, 185);
+}
+#safetyteam3{
+    background-color: rgb(255, 255, 255);
+}
+
+#safety2{
+    background-color: rgb(101, 215, 81);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#organization{
+    background-color: rgb(255, 255, 255);
+}
+
+#teamplayer{
+    background-color: rgb(248, 219, 0);
+}
+
+#teamgeneral{
+    background-color: rgb(248, 219, 0);
+}
+
+#teamgeneral2{
+    background-color: rgb(248, 219, 0);
+}
+
+#teamgeneral3{
+    background-color: rgb(248, 219, 0);
+}
+
+#coding{
+     background-color: rgb(70, 174, 52);
+}
+
+#coding2{
+    background-color: rgb(195, 246, 124);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contact{
+     background-color: rgb(255, 255, 255);
+}
+
+#contact2{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#topic{
+    background-color: rgb(255, 255, 255);
+}
+
+#topicgeneral{
+    background-color: rgb(194, 246, 185);
+}
+
+#inte{
+    background-color: rgb(255, 255, 255);
+    min-height: 30vh;
+    align-items: right;
+}
+
+#into{
+    background-color: rgb(194, 246, 185);
+    min-height: 30vh;
+}
+
+#win1{
+    background-color: rgb(255, 255, 255);
+}
+
+#win2{
+    background-color: rgb(194, 246, 185);
+}
+
+#win3{
+    background-color: rgb(255, 255, 255);
+}
+#win4{
+    background-color: rgb(194, 246, 185);
+}
+
+#win5{
+    background-color: rgb(255, 255, 255);
+}
+#win6{
+    background-color: rgb(194, 246, 185);
+}
+
+#achievements{
+    background-color: rgb(248, 219, 0);
+    min-height:9vh;
+}
+
+a.top {
+    position: relative;
+    top:-101px;
+    display: block;
+    height: 0;
+    width:0;
+}
+
+/* Responsive */
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+
+    section{
+        font-size: 40px;
+    }
+
+    #menu li a{
+        font-size: 30px;
+    }
+}
+.row {
+    display: flex;
+    }
+    
+    
+.columnLeftE {
+    flex: 30%;
+    }
+
+.columnRightE {
+    flex: 70%
+}
+.columnLeftO {
+    flex: 70%;
+    }
+
+.columnRightO {
+    flex: 30%
+}
